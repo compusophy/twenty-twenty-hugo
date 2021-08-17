@@ -1,39 +1,5 @@
 <div class="footer-nav-widgets-wrapper header-footer-group">
-  <div class="footer-inner section-inner">
-    <div class="footer-top has-social-menu">
-      <nav aria-label="Social links" class="footer-social-wrapper">
-        {{partial "social.html" .}}
-      </nav>
-    </div><!-- .footer-top -->
-    {{ with .Site.Params.footer }}
-    <aside class="footer-widgets-outer-wrapper" role="complementary">
-      <div class="footer-widgets-wrapper">
-        <div class="footer-widgets column-one grid-item">
-          <div class="widget widget_text">
-            <div class="widget-content">
-              <h2 class="widget-title subheading heading-size-3">{{ .title | markdownify }}</h2>
-              <div class="textwidget">
-                <p>{{ .content | markdownify }}</p>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="footer-widgets column-two grid-item">
-          <div class="widget widget_text">
-            <div class="widget-content">
-              <h2 class="widget-title subheading heading-size-3">dont find Us</h2>
-              <div class="textwidget">
-                <p><strong>Address</strong><br/> {{ .address | markdownify }}</p>
-                <p><strong>Hours</strong><br/>{{ .hours | markdownify }}</p>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div><!-- .footer-widgets-wrapper -->
-    </aside><!-- .footer-widgets-outer-wrapper -->
-    {{ end }}
-
-  </div><!-- .footer-inner -->
+ 
 
 </div><!-- .footer-nav-widgets-wrapper -->
 
